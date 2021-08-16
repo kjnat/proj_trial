@@ -5,5 +5,5 @@ void main()
   printf("$ "); 
   scanf("%s",&name);  
   printf(name);  
-  getch();   
+ 
 }
