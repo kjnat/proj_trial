@@ -1,9 +1,13 @@
 #include<stdio.h>
-int main()
+#include<conio.h>
+void main()
 {
-    stdin word;
-    printf("$ ");
-    scanf("%d", &word);
-    printf("\n: %d", word);
-    return 0;
+	char str[40];
+	clrscr();
+
+	printf("$ ");
+	gets(str);
+	printf("%s", str);
+
+	getch();
 }
