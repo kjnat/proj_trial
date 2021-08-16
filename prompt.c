@@ -1,10 +1,10 @@
 #include<stdio.h> 
 int main(void) 
 { 
-	char string[25]; 
+	char buffer[25]; 
 	printf("$ "); 
-    scanf("%[^\n]*c",string); 
+    scanf("%[^\n]*c",buffer); 
 	 
-	printf("%s\n",string); 
+	printf("%s\n",buffer); 
 	 
 } 
