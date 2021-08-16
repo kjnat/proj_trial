@@ -1,13 +1,9 @@
-#include<stdio.h>
-#include<conio.h>
-void main()
+#include<stdio.h>  
+void main()  
 {
-	char str[40];
-	clrscr();
-
-	printf("$ ");
-	gets(str);
-	printf("%s", str);
-
-	getch();
+  char name[20];  
+  printf("$ "); 
+  scanf("%s",&name);  
+  printf(name);  
+  getch();   
 }
