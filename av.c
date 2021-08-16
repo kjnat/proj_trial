@@ -5,7 +5,7 @@
  * @av: av is a NULL terminated array of strings
  * Return: 0
  */
- int main(int ac, char **av)
+ int main(int ac, char *av)
 {
 	int i;
 
