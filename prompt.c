@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    string word;;
+    stdin word;;
     printf("$ ");
     scanf("%d", &word);
     printf("\n: %d", word);
