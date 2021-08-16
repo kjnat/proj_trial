@@ -5,6 +5,5 @@ int main()
     printf("$ ");
     scanf("%d", &word);
     printf("\n: %d", word);
-    getch();
     return 0;
 }
