@@ -6,6 +6,6 @@ int main(void)
         size_t bufsize = 32;
 	printf("$ "); 
 	getline(&b,&bufsize,stdin);
-        printf("%s\n",buffer); 
+        printf("%s",buffer); 
 	 
 } 
