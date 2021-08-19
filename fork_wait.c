@@ -24,7 +24,8 @@ int main(void)
     printf("My pid is %u\n", my_pid);
     if (child_pid == 0)
     {
-        sleep(3,"\n");
+        sleep(3);
+        printf("\n");
         printf("(%u) Nooooooooo!\n", my_pid);
         
     }
