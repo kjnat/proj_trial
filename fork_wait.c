@@ -24,13 +24,15 @@ int main(void)
     printf("My pid is %u\n", my_pid);
     if (child_pid == 0)
     {
-        wait(&status);
         printf("(%u) Nooooooooo!\n", my_pid);
+        sleep(3);
     }
     else
     {
+        wait(&status);
         printf("(%u) %u, I am your father\n", my_pid, child_pid);
-        sleep(3);
+       
+        
     }
     return (0);
 }
