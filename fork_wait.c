@@ -31,7 +31,7 @@ int main(void)
     else
     {
         wait(&status);
-        printf("(%u) %u, I am your father\n", my_pid);
+        printf("(%u) %u, I am your father\n", my_pid, child_pid);
        
         
     }
