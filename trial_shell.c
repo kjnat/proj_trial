@@ -24,7 +24,7 @@ void init_shell()
 	printf("\n\n\t-USE AT YOUR OWN RISK-");
 	printf("\n\n\n\n*******************"
 		"***********************");
-	char* username = getenv("USER");
+	char* username = getenv("NAT");
 	printf("\n\n\nUSER is: @%s", username);
 	printf("\n");
 	sleep(1);
@@ -139,6 +139,7 @@ void openHelp()
 		"\nList of Commands supported:"
 		"\n>cd"
 		"\n>ls"
+	     	"\n>l"
 		"\n>exit"
 		"\n>all other general commands available in UNIX shell"
 		"\n>pipe handling"
